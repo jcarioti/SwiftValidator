@@ -18,8 +18,6 @@
 		C87F606A1E2B678B00EB8429 /* CardExpiryMonthRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87F60691E2B678B00EB8429 /* CardExpiryMonthRule.swift */; };
 		C87F606C1E2B68C900EB8429 /* CardExpiryYearRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87F606B1E2B68C900EB8429 /* CardExpiryYearRule.swift */; };
 		FB465CB81B9884F400398388 /* SwiftValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = FB465CB71B9884F400398388 /* SwiftValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB465CBE1B9884F400398388 /* SwiftValidator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB465CB31B9884F400398388 /* SwiftValidator.framework */; };
-		FB465CC71B9884F400398388 /* SwiftValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB465CC61B9884F400398388 /* SwiftValidatorTests.swift */; };
 		FB465CF31B9889EA00398388 /* ConfirmRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB465CE31B9889EA00398388 /* ConfirmRule.swift */; };
 		FB465CF41B9889EA00398388 /* EmailRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB465CE41B9889EA00398388 /* EmailRule.swift */; };
 		FB465CF51B9889EA00398388 /* FloatRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB465CE51B9889EA00398388 /* FloatRule.swift */; };
@@ -39,16 +37,6 @@
 		FBA963631CDA10130071F03E /* ValidatorDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA963621CDA10130071F03E /* ValidatorDictionary.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		FB465CBF1B9884F400398388 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 62D1AE0F1A1E6D4400E4DFF8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FB465CB21B9884F400398388;
-			remoteInfo = SwiftValidator;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		62C1821C1C6312F5003788E7 /* ExactLengthRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExactLengthRule.swift; sourceTree = "<group>"; };
 		62D1AE1B1A1E6D4400E4DFF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,7 +45,6 @@
 		62D1AE211A1E6D4400E4DFF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		62D1AE231A1E6D4400E4DFF8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		62D1AE261A1E6D4400E4DFF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		62D1AE2C1A1E6D4500E4DFF8 /* ValidatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValidatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62D1AE311A1E6D4500E4DFF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62D9B2551C7C0B2A00BAFCE3 /* ValidationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationDelegate.swift; sourceTree = "<group>"; };
 		7CC1E4CE1C636B4500AF013C /* AlphaRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlphaRule.swift; sourceTree = "<group>"; };
@@ -71,7 +58,6 @@
 		FB465CB31B9884F400398388 /* SwiftValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB465CB61B9884F400398388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB465CB71B9884F400398388 /* SwiftValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftValidator.h; sourceTree = "<group>"; };
-		FB465CBD1B9884F400398388 /* SwiftValidatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftValidatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB465CC51B9884F400398388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB465CC61B9884F400398388 /* SwiftValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftValidatorTests.swift; sourceTree = "<group>"; };
 		FB465CE31B9889EA00398388 /* ConfirmRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmRule.swift; sourceTree = "<group>"; };
@@ -94,25 +80,10 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		62D1AE291A1E6D4500E4DFF8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FB465CAF1B9884F400398388 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FB465CBA1B9884F400398388 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FB465CBE1B9884F400398388 /* SwiftValidator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,9 +104,7 @@
 		62D1AE181A1E6D4400E4DFF8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				62D1AE2C1A1E6D4500E4DFF8 /* ValidatorTests.xctest */,
 				FB465CB31B9884F400398388 /* SwiftValidator.framework */,
-				FB465CBD1B9884F400398388 /* SwiftValidatorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -268,23 +237,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		62D1AE2B1A1E6D4500E4DFF8 /* ValidatorTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 62D1AE391A1E6D4500E4DFF8 /* Build configuration list for PBXNativeTarget "ValidatorTests" */;
-			buildPhases = (
-				62D1AE281A1E6D4500E4DFF8 /* Sources */,
-				62D1AE291A1E6D4500E4DFF8 /* Frameworks */,
-				62D1AE2A1A1E6D4500E4DFF8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ValidatorTests;
-			productName = ValidatorTests;
-			productReference = 62D1AE2C1A1E6D4500E4DFF8 /* ValidatorTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		FB465CB21B9884F400398388 /* SwiftValidator */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB465CD01B9884F400398388 /* Build configuration list for PBXNativeTarget "SwiftValidator" */;
@@ -303,24 +255,6 @@
 			productReference = FB465CB31B9884F400398388 /* SwiftValidator.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		FB465CBC1B9884F400398388 /* SwiftValidatorTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FB465CD21B9884F400398388 /* Build configuration list for PBXNativeTarget "SwiftValidatorTests" */;
-			buildPhases = (
-				FB465CB91B9884F400398388 /* Sources */,
-				FB465CBA1B9884F400398388 /* Frameworks */,
-				FB465CBB1B9884F400398388 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FB465CC01B9884F400398388 /* PBXTargetDependency */,
-			);
-			name = SwiftValidatorTests;
-			productName = SwiftValidatorTests;
-			productReference = FB465CBD1B9884F400398388 /* SwiftValidatorTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -332,19 +266,9 @@
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = jpotts18;
 				TargetAttributes = {
-					62D1AE2B1A1E6D4500E4DFF8 = {
-						CreatedOnToolsVersion = 6.1;
-						LastSwiftMigration = 0820;
-						TestTargetID = 62D1AE161A1E6D4400E4DFF8;
-					};
 					FB465CB21B9884F400398388 = {
 						CreatedOnToolsVersion = 6.4;
 						LastSwiftMigration = 0800;
-					};
-					FB465CBC1B9884F400398388 = {
-						CreatedOnToolsVersion = 6.4;
-						LastSwiftMigration = 0800;
-						TestTargetID = 62D1AE161A1E6D4400E4DFF8;
 					};
 				};
 			};
@@ -362,29 +286,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				62D1AE2B1A1E6D4500E4DFF8 /* ValidatorTests */,
 				FB465CB21B9884F400398388 /* SwiftValidator */,
-				FB465CBC1B9884F400398388 /* SwiftValidatorTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		62D1AE2A1A1E6D4500E4DFF8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FB465CB11B9884F400398388 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FB465CBB1B9884F400398388 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -394,13 +302,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		62D1AE281A1E6D4500E4DFF8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FB465CAE1B9884F400398388 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -435,23 +336,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB465CB91B9884F400398388 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FB465CC71B9884F400398388 /* SwiftValidatorTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		FB465CC01B9884F400398388 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FB465CB21B9884F400398388 /* SwiftValidator */;
-			targetProxy = FB465CBF1B9884F400398388 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		62D1AE201A1E6D4400E4DFF8 /* Main.storyboard */ = {
@@ -576,36 +461,6 @@
 			};
 			name = Release;
 		};
-		62D1AE3A1A1E6D4500E4DFF8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ENABLE_MODULES = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ValidatorTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "me.jeffpotter.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Validator.app/Validator";
-			};
-			name = Debug;
-		};
-		62D1AE3B1A1E6D4500E4DFF8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = ValidatorTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "me.jeffpotter.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Validator.app/Validator";
-			};
-			name = Release;
-		};
 		FB465CCC1B9884F400398388 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -658,48 +513,6 @@
 			};
 			name = Release;
 		};
-		FB465CCE1B9884F400398388 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SwiftValidatorTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.levous.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Validator.app/Validator";
-			};
-			name = Debug;
-		};
-		FB465CCF1B9884F400398388 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = SwiftValidatorTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.levous.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Validator.app/Validator";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -712,29 +525,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		62D1AE391A1E6D4500E4DFF8 /* Build configuration list for PBXNativeTarget "ValidatorTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				62D1AE3A1A1E6D4500E4DFF8 /* Debug */,
-				62D1AE3B1A1E6D4500E4DFF8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		FB465CD01B9884F400398388 /* Build configuration list for PBXNativeTarget "SwiftValidator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FB465CCC1B9884F400398388 /* Debug */,
 				FB465CCD1B9884F400398388 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FB465CD21B9884F400398388 /* Build configuration list for PBXNativeTarget "SwiftValidatorTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FB465CCE1B9884F400398388 /* Debug */,
-				FB465CCF1B9884F400398388 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
